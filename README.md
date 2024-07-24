@@ -3,8 +3,9 @@
 
 
 ## 目录
-1. [GiT基本操作](/Git/GIT.MD)
-2. [MySQL](/MySQL/MySQL.MD)
+1. [快速上手Markdown语法](/Markdown/Markdown基本语法.md)
+2. [GiT基本操作](/Git/GIT.MD)
+3. [MySQL基本操作](/MySQL/MySQL.MD)
 
 ## 与我联系：
 
