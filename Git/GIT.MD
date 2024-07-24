@@ -7,6 +7,7 @@
 项目总地址: [ShuHang2-Github](https://github.com/ShuHang2/ShuHang2.github.io)
 
 项目网站: [Git](https://shuhang2.github.io/Git/GIT.html)
+
 ## 日期
 
 1. 2024年04月22日 开始编写
@@ -14,10 +15,10 @@
 
 ## 目录
 
-1. [Git下载&安装](1.Git下载&安装.md)
-2. [Git环境配置](2.Git环境配置及本地基本操作.md)
+1. [Git下载安装和运行机制](1.Git下载安装和运行机制.md)
+2. [Git环境配置及本地基本操作](2.Git环境配置及本地基本操作.md)
 3. [Git远程仓库操作](3.Git远程仓库操作.md)
-4. [Git分支](4.Git分支和tag.md)
+4. [Git分支和tag](4.Git分支和tag.md)
 
 ## 规划中
 
@@ -46,5 +47,4 @@ shuhang2@qq.com
 zqy1907410767@163.com
 ```
 
-哔哩哔哩：[ShuHang](https://space.bilibili.com/85119525?spm_id_from=333.1007.0.0
-)
+哔哩哔哩：[ShuHang](https://space.bilibili.com/85119525?spm_id_from=333.1007.0.0)
