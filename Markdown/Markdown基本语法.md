@@ -1,6 +1,4 @@
-# 基本资料
-
-## Markdown基本语法
+# Markdown基本语法
 
 
 [![build](https://github.com/Anduin2017/HowToCook/actions/workflows/build.yml/badge.svg)](https://github.com/ShuHang2/ShuHang2.github.io)
