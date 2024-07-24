@@ -1,24 +1,21 @@
 # 基本资料
 
-项目名称：Git基本操作
+项目名称：MySQL基本操作
 
 Github地址: [ShuHang2-Github](https://github.com/ShuHang2/ShuHang2.github.io)
 
-## 日期
 
-1. 2024年04月22日 开始编写
-2. 2024年7月24日 修改完善
 
 ## 目录
 
-1. [Git下载安装和运行机制](1.Git下载安装和运行机制.md)
-2. [Git环境配置及本地基本操作](2.Git环境配置及本地基本操作.md)
-3. [Git远程仓库操作](3.Git远程仓库操作.md)
-4. [Git分支和tag](4.Git分支和tag.md)
+1. [MySQL安装&配置](1.%20MySQL安装&配置.md)
+2. [数据库基本操作](2.%20数据库基本操作.md)
+3. [增删查改](3.%20增删查改.md)
+4. [数据库的完整性与安全性](4.%20数据库的完整性与安全性.md)
 
-## 规划中
-
-1. 版本撤回
+### other
+1. [teachsys数据库](Attachments/teachsys.md)
+2. [创建表中AS的含义](Attachments/创建表中AS的含义.md)
 
 ## 与我联系：
 QQ账号：
