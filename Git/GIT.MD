@@ -4,10 +4,7 @@
 
 Github地址: [ShuHang2-Github](https://github.com/ShuHang2/ShuHang2.github.io)
 
-## 日期
-
-1. 2024年04月22日 开始编写
-2. 2024年7月24日 修改完善
+## [返回主页](../README.md)
 
 ## 目录
 
@@ -21,6 +18,15 @@ Github地址: [ShuHang2-Github](https://github.com/ShuHang2/ShuHang2.github.io)
 1. 版本撤回
 
 ## 与我联系：
+邮箱：
+
+```
+shuhang2@qq.com
+```
+
+```
+zqy1907410767@163.com
+```
 QQ账号：
 
 ```
@@ -33,19 +39,11 @@ QQ账号：
 Share_MuTou
 ```
 
-邮箱：
 
-```
-shuhang2@qq.com
-```
-
-```
-zqy1907410767@163.com
-```
 
 
 哔哩哔哩：
 
 <a href="https://space.bilibili.com/85119525?spm_id_from=333.1007.0.0">
-<img src="./att/../Git/img/pp.jpeg" alt="BiliBili" width="150" height=auto>
+<img src="../Att/pp.jpeg" alt="BiliBili" width="150" height=auto>
 </a>
