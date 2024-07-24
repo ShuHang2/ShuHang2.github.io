@@ -2,7 +2,8 @@
 
 项目名称：Git基本操作
 
-Github地址: [ShuHang2-Github](https://github.com/ShuHang2/ShuHang2.github.io)
+
+[![build](https://github.com/Anduin2017/HowToCook/actions/workflows/build.yml/badge.svg)](https://github.com/ShuHang2/ShuHang2.github.io)
 
 ## [返回主页](../README.md)
 
