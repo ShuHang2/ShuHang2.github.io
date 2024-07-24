@@ -3,7 +3,7 @@
 
 
 目录:
-1. [GiT](/Git/GIT.MD)
+1. [GiT基本操作](/Git/GIT.MD)
 
 ## 与我联系：
 QQ账号：
