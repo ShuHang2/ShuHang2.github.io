@@ -151,18 +151,36 @@ ___
 [shuhang2的笔记](https://shuhang2.github.io/)
 
 # 图片插入语法
-
+唯一的缺点就是图片的大小不可控，它默认是100%铺满你的屏幕，想要调整要使用HTML中的图片标签
 ### 格式
-
+```
 ![随便起名字](本地相对路径、结对路径、两页链接)
 
-```
-![随便起名字](./img/1.png)
+![tu](../Att/pp.jpeg)
+<img src="./Att/pp.jpeg" alt="BiliBili" width="150" height=auto>
+# HTML图片标签
+
 ```
 
 ### 效果
 
 ![tu](../Att/pp.jpeg)
+
+#### HTML图片标签
+<img src="../Att/pp.jpeg" alt="BiliBili" width="150px" height=auto>
+
+# 给图片添加超链接
+
+因为MarkDown文件支持插入部分HTML标签，因此我们可以使用锚标签来进行实现点击图片进行跳转超链接
+
+```
+<a href="https://space.bilibili.com/85119525?spm_id_from=333.1007.0.0">
+<img src="../Att/pp.jpeg" alt="BiliBili" width="150" height=auto>
+</a>
+```
+<a href="https://space.bilibili.com/85119525?spm_id_from=333.1007.0.0">
+<img src="../Att/pp.jpeg" alt="BiliBili" width="150" height=auto>
+</a>
 
 # 代码语法
 
@@ -258,3 +276,7 @@ Here's a simple footnote,[^1] and here's a longer one.[^2]
 ### 效果
 
 > Dorothy followed her through many of the beautiful rooms in her castle.
+
+***
+下面是**脚注语法**的脚注
+
