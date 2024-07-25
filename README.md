@@ -1,4 +1,6 @@
 # ShuHang2的笔记
+
+### 作者：ShuHang2
 [![build](https://github.com/Anduin2017/HowToCook/actions/workflows/build.yml/badge.svg)](https://github.com/ShuHang2/ShuHang2.github.io)
 
 
@@ -7,6 +9,8 @@
 ### 基本语法
 1. [快速上手Markdown语法](/Markdown/Markdown基本语法.md)
 
+### 机器学习
+1. [minoconda和Pytorch安装与环境配置](Pytorch/Pytorch.MD)
 ### 开发软件
 1. [GiT基本操作](/Git/GIT.MD)
 2. [MySQL基本操作](/MySQL/MySQL.MD)

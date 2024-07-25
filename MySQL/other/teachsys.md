@@ -1,10 +1,8 @@
-# [返回目录](MySQL.MD)
-# 基本信息
+# teachsys
 
-项目：teachsys
-主要内容：数据
-开始时间：2023 年 11 月 30 日
-结束时间：
+[![build](https://github.com/Anduin2017/HowToCook/actions/workflows/build.yml/badge.svg)](https://github.com/ShuHang2/ShuHang2.github.io)
+
+# [返回目录](MySQL.MD)
 
 ## Student 结构
 

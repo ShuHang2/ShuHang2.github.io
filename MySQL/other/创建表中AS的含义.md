@@ -1,10 +1,10 @@
-# [返回目录](MySQL.MD)
-# 基本信息
+# 创建表中AS的含义
 
-项目：
-主要内容：创建表中AS的含义
-开始时间：2023 年 11 月 30 日
-结束时间：
+### 作者：ShuHang2
+
+[![build](https://github.com/Anduin2017/HowToCook/actions/workflows/build.yml/badge.svg)](https://github.com/ShuHang2/ShuHang2.github.io)
+
+# [返回目录](MySQL.MD)
 
 ***
 在 SQL 语句中，`AS` 关键字用于指定别名。别名是给查询结果中的列或者表指定一个新的名称，这样做可以使得列名更易读，或者当查询涉及到多个表时，使用别名可以避免列名或表名的冲突。
