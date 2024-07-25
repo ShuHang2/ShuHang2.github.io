@@ -18,6 +18,8 @@
 1. [GiT基本操作](/Git/GIT.MD)
 2. [MySQL基本操作](/MySQL/MySQL.MD)
 
+### 笔记软件
+1. [Obsidian远程同步](Obsidian/Obsidian远程同步.md)
 ### 思想
 1. [坚定的失败主义者](/Idea/坚定的失败主义者.md)
 
