@@ -14,7 +14,7 @@
 
 ### 机器学习
 1. [minoconda和Pytorch安装与环境配置](Pytorch/Pytorch.MD)
-2. [机器学习：LightGBM回归模型](ML_Race/LightGBM回归模型.md)
+2. [机器学习：LightGBM回归模型](ML_Model/LightGBM回归模型.md)
 
 ### 开发软件
 1. [GiT基本操作](/Git/GIT.MD)
