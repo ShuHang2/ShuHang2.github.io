@@ -5,12 +5,12 @@
 
 ## 关于文档
 
-本项目旨在打造一个免费、新手友好的计算机软件安装配置教程和学习文档。可以通过访问[shuhang2的笔记](https://shuhang2.github.io/)网页在浏览器中实时查看所有文档
+本项目旨在打造一个免费、新手友好的计算机软件安装配置教程和学习文档。可以通过访问[ShuHang2的笔记](https://shuhang2.github.io/)网页在浏览器中实时查看所有文档
 
 ## 目录
 
 ### 基本语法
-1. [快速上手Markdown语法](/Markdown/Markdown基本语法.md)
+1. [快速上手Markdown语法](./Markdown/Markdown基本语法.md)
 
 ### 机器学习
 1. [minoconda和Pytorch安装与环境配置](Pytorch/Pytorch.MD)
