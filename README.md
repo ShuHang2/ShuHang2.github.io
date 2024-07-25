@@ -3,7 +3,7 @@
 ### 作者：ShuHang2
 [![build](https://github.com/Anduin2017/HowToCook/actions/workflows/build.yml/badge.svg)](https://github.com/ShuHang2/ShuHang2.github.io)
 
-## 关于本书
+## 关于文档
 
 本项目旨在打造一个免费、新手友好的计算机软件安装配置教程和学习文档。可以通过访问[shuhang2的笔记](https://shuhang2.github.io/)网页在浏览器中实时查看所有文档
 
