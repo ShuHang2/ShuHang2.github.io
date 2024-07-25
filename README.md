@@ -3,6 +3,9 @@
 ### 作者：ShuHang2
 [![build](https://github.com/Anduin2017/HowToCook/actions/workflows/build.yml/badge.svg)](https://github.com/ShuHang2/ShuHang2.github.io)
 
+## 关于本书
+
+本项目旨在打造一个免费、新手友好的计算机软件安装配置教程和学习文档。
 
 ## 目录
 
@@ -19,6 +22,8 @@
 1. [坚定的失败主义者](/Idea/坚定的失败主义者.md)
 
 ## 做出贡献
+
+若本文档对您有所帮助，请在页面右上角点个 Star ⭐ 支持一下，谢谢！
 
 如何文档中有错误，希望能通过邮箱`shuhang2@qq.com`与我联系，我将尽快修改，我将万分感谢
 
@@ -38,8 +43,6 @@ QQ账号：
 ```
 1410117145
 ```
-
-
 
 哔哩哔哩:
 
