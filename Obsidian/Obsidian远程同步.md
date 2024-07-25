@@ -1,6 +1,12 @@
 # Obsibian下载
 
-地址：[Obsibian](https://obsidian.md/download)
+### 作者：ShuHang2
+[![build](https://github.com/Anduin2017/HowToCook/actions/workflows/build.yml/badge.svg)](https://github.com/ShuHang2/ShuHang2.github.io)
+[![build](https://github.com/Anduin2017/HowToCook/actions/workflows/build.yml/badge.svg)](https://github.com/ShuHang2/ShuHang2.github.io)
+
+## [返回主页](../README.md)
+
+下载地址：[Obsibian](https://obsidian.md/download)
 
 默认安装即可
 
