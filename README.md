@@ -38,18 +38,3 @@
 ```
 shuhang2@qq.com
 ```
-
-```
-zqy1907410767@163.com
-```
-
-QQ账号：
-```
-1410117145
-```
-
-哔哩哔哩:
-
-<a href="https://space.bilibili.com/85119525?spm_id_from=333.1007.0.0">
-<img src="./Att/pp.jpeg" alt="BiliBili" width="150" height=auto>
-</a>
