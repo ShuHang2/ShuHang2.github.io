@@ -11,3 +11,4 @@
 2. [在vsCode中使用conda和Jupyter](2.在vsCode中使用conda和Jupyter.md)
 3. [安装Pytorch-GPU](3.安装Pytorch-GPU.md)
 4. [pytorch-GPU版本和torchtext安装](4.pytorch-GPU版本和torchtext%20安装.md)
+5. [生成requirement文件](5.生成requirement文件.md)
