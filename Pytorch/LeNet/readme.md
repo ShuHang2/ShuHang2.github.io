@@ -1,4 +1,4 @@
-# 神经网络
+# 神经网络LeNet
 
 ### 作者：ShuHang2
 
@@ -10,4 +10,4 @@
 
 使用LeNet训练CIFAR10数据集
 
-Github仓库：https://github.com/ShuHang2/ShuHang2.github.io/Pytorch/LeNet
+Github仓库：https://github.com/ShuHang2/ShuHang2.github.io/tree/main/Pytorch/LeNet

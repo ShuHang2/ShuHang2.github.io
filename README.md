@@ -14,7 +14,9 @@
 
 ### 机器学习
 1. [minoconda和Pytorch安装与环境配置](Pytorch/Pytorch.MD)
-2. [机器学习：LightGBM回归模型](ML_Model/LightGBM回归模型.md)
+2. [Pytorch学习](./Pytorch/Study/readme.md)
+3. [机器学习：LightGBM回归模型](ML_Model/LightGBM回归模型.md)
+4. [使用LeNet训练CIFAR10数据集](./Pytorch/LeNet/readme.md)
 
 ### 开发软件
 1. [GiT基本操作](/Git/GIT.MD)

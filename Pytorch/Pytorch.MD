@@ -12,7 +12,3 @@
 3. [安装Pytorch-GPU](3.安装Pytorch-GPU.md)
 4. [pytorch-GPU版本和torchtext安装](4.pytorch-GPU版本和torchtext%20安装.md)
 5. [生成requirement文件](5.生成requirement文件.md)
-
-## 项目
-
-1. [使用LeNet训练CIFAR10数据集](./LeNet/readme.md)
