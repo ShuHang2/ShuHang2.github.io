@@ -37,12 +37,16 @@
 
 ### 格式
 
-使用空白行将一行或多行文本进行分隔，不要用空格（spaces）或制表符（ tabs）缩进段落
+使用空白行将一行或多行文本进行分隔，不要用空格（spaces）或制表符（ tabs）缩进段落。
+
+如果缩进四个字符（tabs）就会变成**代码块**
 
 ```
 I really like using Markdown.
 
 I think I'll use it to format all of my documents from now on.
+
+	Code Block
 ```
 
 ### 效果
@@ -50,6 +54,8 @@ I think I'll use it to format all of my documents from now on.
 I really like using Markdown.
 
 I think I'll use it to format all of my documents from now on.
+
+    Code Block
 
 # 强调语法
 
