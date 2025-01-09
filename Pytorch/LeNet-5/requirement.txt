@@ -1,0 +1,123 @@
+aiofiles==23.2.1
+albucore==0.0.12
+altair==5.3.0
+annotated-types==0.7.0
+anyio==4.4.0
+attrs==23.2.0
+Brotli @ file:///C:/b/abs_3d36mno480/croot/brotli-split_1714483178642/work
+certifi @ file:///C:/b/abs_55jxithrm3/croot/certifi_1717618077850/work/certifi
+cffi @ file:///C:/b/abs_78eb1_vq6z/croot/cffi_1714483206096/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click==8.1.7
+colorama==0.4.6
+coloredlogs==15.0.1
+conda==4.12.0
+conda-package-handling @ file:///C:/b/abs_831_pypuuz/croot/conda-package-handling_1718138287790/work
+conda_package_streaming @ file:///C:/b/abs_fe6zb0_j8_/croot/conda-package-streaming_1718136098642/work
+contourpy==1.2.1
+cryptography @ file:///C:/b/abs_97lgskwerx/croot/cryptography_1714664736250/work
+cycler==0.12.1
+Cython==3.0.10
+dnspython==2.6.1
+easydict==1.13
+email_validator==2.2.0
+eval_type_backport==0.2.0
+exceptiongroup==1.2.2
+fastapi==0.111.1
+fastapi-cli==0.0.4
+ffmpy==0.3.2
+filelock==3.15.4
+flatbuffers==24.3.25
+fonttools==4.53.1
+fsspec==2024.6.1
+ftfy==6.2.0
+gradio @ file:///F:/AI/Face/roop-unleashed-main/gradio-4.38.1-py3-none-any.whl#sha256=003c80fccb475869d76ddd9f8f1c7e85d14b0088a7eabc10558304930f33367b
+gradio_client==1.1.0
+h11==0.14.0
+httpcore==1.0.5
+httptools==0.6.1
+httpx==0.27.0
+huggingface-hub==0.24.2
+humanfriendly==10.0
+idna @ file:///C:/b/abs_aad84bnnw5/croot/idna_1714398896795/work
+imageio==2.34.2
+importlib_resources==6.4.0
+insightface==0.7.3
+Jinja2==3.1.4
+joblib==1.4.2
+jsonschema==4.23.0
+jsonschema-specifications==2023.12.1
+kiwisolver==1.4.5
+lazy_loader==0.4
+markdown-it-py==3.0.0
+MarkupSafe==2.1.5
+matplotlib==3.9.1
+mdurl==0.1.2
+menuinst @ file:///C:/ci/menuinst_1631733438520/work
+mpmath==1.3.0
+networkx==3.2.1
+numpy==1.26.4
+onnx @ file:///F:/AI/Face/roop-unleashed-main/onnx-1.16.0-cp39-cp39-win_amd64.whl#sha256=d7886c05aa6d583ec42f6287678923c1e343afc4350e49d5b36a0023772ffa22
+onnxruntime-gpu @ file:///F:/AI/Face/roop-unleashed-main/onnxruntime_gpu-1.17.1-cp39-cp39-win_amd64.whl#sha256=b1a27a104334461b690e4fc62775e1e71c68936399874932225d7fea21a0c261
+opencv-python @ file:///F:/AI/Face/roop-unleashed-main/opencv_python-4.9.0.80-cp37-abi3-win_amd64.whl#sha256=3f16f08e02b2a2da44259c7cc712e779eff1dd8b55fdb0323e8cab09548086c0
+opencv-python-headless @ file:///F:/AI/Face/roop-unleashed-main/opencv_python_headless-4.10.0.84-cp37-abi3-win_amd64.whl#sha256=afcf28bd1209dd58810d33defb622b325d3cbe49dcd7a43a902982c33e5fad05
+orjson==3.10.6
+packaging==24.1
+pandas==2.2.2
+pillow==10.4.0
+prettytable==3.10.2
+protobuf==5.27.2
+psutil==5.9.6
+pycosat @ file:///C:/b/abs_5csdern___/croot/pycosat_1714513102923/work
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pydantic==2.8.2
+pydantic_core==2.20.1
+pydub==0.25.1
+Pygments==2.18.0
+pyOpenSSL @ file:///C:/b/abs_baj0aupznq/croot/pyopenssl_1708380486701/work
+pyparsing==3.1.2
+pyproject==1.3.1
+pyreadline3==3.4.1
+PySocks @ file:///C:/ci/pysocks_1605307512533/work
+python-dateutil==2.9.0.post0
+python-dotenv==1.0.1
+python-multipart==0.0.9
+pytz==2024.1
+pyvirtualcam==0.12.0
+pywin32==305.1
+PyYAML==6.0.1
+referencing==0.35.1
+regex==2024.7.24
+requests @ file:///C:/b/abs_9c5n24p1y7/croot/requests_1716902867639/work
+rich==13.7.1
+rpds-py==0.19.1
+ruamel-yaml-conda @ file:///C:/ci/ruamel_yaml_1616016898638/work
+ruff==0.5.5
+scikit-image==0.24.0
+scikit-learn @ file:///F:/AI/Face/roop-unleashed-main/scikit_learn-1.5.1-cp39-cp39-win_amd64.whl#sha256=5f57428de0c900a98389c4a433d4a3cf89de979b3aa24d1c1d251802aa15e44d
+scipy==1.13.1
+semantic-version==2.10.0
+shellingham==1.5.4
+six==1.16.0
+sniffio==1.3.1
+starlette==0.37.2
+sympy==1.13.1
+threadpoolctl==3.5.0
+tifffile==2024.7.24
+tomli==2.0.1
+tomlkit==0.12.0
+toolz==0.12.1
+torch @ file:///C:/Users/ShuHang/Downloads/torch-2.1.2%2Bcu118-cp39-cp39-win_amd64.whl#sha256=256589349b9611195fe585a5aaf616945477f73a22c481311e3dadf12fbc5cb2
+torchvision==0.16.2+cu118
+tqdm==4.66.4
+typer==0.12.3
+typing_extensions==4.12.2
+tzdata==2024.1
+urllib3 @ file:///C:/b/abs_a7hvzm4y95/croot/urllib3_1718912661242/work
+uvicorn==0.30.3
+watchfiles==0.22.0
+wcwidth==0.2.13
+websockets==11.0.3
+win-inet-pton @ file:///C:/ci/win_inet_pton_1605306162074/work
+zipp==3.19.2
+zstandard @ file:///C:/b/abs_e46tf0_91g/croot/zstandard_1714678303615/work

@@ -176,7 +176,7 @@ ___
 
 ### 效果
 
-![tu](../Att/pp.jpeg)
+![tu](../img/pp.jpeg)
 
 #### HTML图片标签
 <img src="../Att/pp.jpeg" alt="BiliBili" width="150px" height=auto>
