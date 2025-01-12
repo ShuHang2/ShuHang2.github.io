@@ -1,12 +1,14 @@
 # LightGBM回归模型
-### 作者：ShuHang2
+
+## 作者：ShuHang2
+
 [![build](https://github.com/Anduin2017/HowToCook/actions/workflows/build.yml/badge.svg)](https://github.com/ShuHang2/ShuHang2.github.io)
 
 ## [返回主页](../README.md)
 
-# 天气预测
+## 天气预测
 
-## 参考链接
+### 参考链接
 
 项目代码仓库地址：[天气预测及房价预测代码](https://github.com/ShuHang2/LGBM_XGB)
 
@@ -15,17 +17,19 @@
 LightGBM官方文档：[lightgbm.LGBMRegressor](https://lightgbm.readthedocs.io/en/latest/pythonapi/lightgbm.LGBMRegressor.html)
 
 LightGBM视频参考：[30行代码 = 排行榜前5%, Kaggle 房价预测项目, 分享我的 LightGBM 极简工作流.](https://www.bilibili.com/video/BV13H4y1B7ma/?spm_id_from=333.337.search-card.all.click&vd_source=4ccf948892d4f576c919af8b39cbe8dc)
-## LightGBM回归模型
 
-### 导入基础库
+### LightGBM回归
+
+#### 导入基础库
 
 ```python
 import pandas as pd
 import numpy as np
 ```
 
-## 数据分析
-### 对数据集进行导入，并查看数据集的大小
+### 数据分析
+
+#### 对数据集进行导入，并查看数据集的大小
 
 ```python
 train = pd.read_csv("./data/train.csv")
@@ -35,7 +39,7 @@ print("train size:", train.shape)
 print("test size:", test.shape)
 ```
 
-### 查看数据缺失值百分比
+#### 查看数据缺失值百分比
 
 通过查看 csv 文件中，我们能明显的看出有大量的数据缺失，我们写一个函数对数据的缺失值进行查看。
 
@@ -52,9 +56,10 @@ def missing_value_percent(train):
 
 missing_value_percent(train)
 ```
-## 数据清洗
 
-### 处理缺失数值类型的数据
+### 数据清洗
+
+#### 处理缺失数值类型的数据
 
 根据数据缺失值的具体情况，由于天气数据是以时间顺序进行排列，我们挑选出数据缺失值较少且为数值型的使interpolate 函数进行线性插值，补全数据。
 
@@ -81,7 +86,7 @@ for column in columns_miss:
 missing_value_percent(train)
 ```
 
-### 处理缺失Object（String）类型的数据
+#### 处理缺失Object（String）类型的数据
 
 我们在挑选出，数值缺失较少的非数值类型的，进行前后插值
 
@@ -94,7 +99,7 @@ for column in columns_miss_object:
 missing_value_percent(train)
 ```
 
-### 数据集合并
+#### 数据集合并
 
 LightGBM模型只能输入数值类型的数据，我们挑选出Obkect类型的数据
 
@@ -121,14 +126,14 @@ cat_features = [
 print("features:", cat_features, "\n length:", len(cat_features))
 print("xy_all size:", xy_all.shape)
 ```
-## 特征工程
 
-### 数据处理
+### 特征工程
+
+#### 数据处理
 
 对于缺失值缺失太多的数据，因为有大段的缺失，使用数据补全的效果很差，就不进行数据补全，而将它置为-1 表示为空值
 
 我们使用 OrdinalEncoder 将缺失值转化为-1，将非数值型映射到唯一且输定的数。并对其进行归一化。通过归一化，我们的目标 RainTomorrow，下雨就是 1，不下雨就是 0
-
 
 ```python
 # processing value
@@ -146,7 +151,7 @@ xy_all[cat_features] = ordinal_encoder.fit_transform(xy_all[cat_features])
 print("xy_all size:", xy_all.shape)
 ```
 
-### 数据分割
+#### 数据分割
 
 由于我们是将训练集和测试集，一起进行特征处理，我们需要再将他们进行分开。我们通过 RainTomorrow 为 -1 就是 x_test。RainTomorrow 不是 -1 就是xy_train。
 
@@ -162,9 +167,10 @@ x_train = xy_train.drop(columns=["RainTomorrow"])
 y_train = xy_train["RainTomorrow"]
 x_test = xy_all[xy_all["RainTomorrow"] == -1].drop(columns="RainTomorrow")
 ```
-## 建模
 
-### 导入LightGBM模型
+### 建模
+
+#### 导入LightGBM模型
 
 一开始可以使用默认参数，这个参数可以通过[参数查找函数](寻参函数.md)进行查找
 
@@ -193,13 +199,13 @@ model = lgb.LGBMRegressor(
 )
 ```
 
-## 模型训练
+### 模型训练
 
 ```python
 model.fit(x_train, y_train)
 ```
 
-## 模型预测
+### 模型预测
 
 因为我使用的是回归模型，所以我们需要将数值转化为 Yes 或 No
 
@@ -208,8 +214,10 @@ model.fit(x_train, y_train)
 y_pred = model.predict(x_test)
 y_pred_str = np.where(y_pred > 0.5, "Yes", "No")
 ```
-### 预测结果保存为CSV文件
-```
+
+#### 预测结果保存为CSV文件
+
+```python
 # save csv
 pd.DataFrame({
     "id": x_test["id"],
@@ -217,7 +225,7 @@ pd.DataFrame({
 }).to_csv("./output/LGBM.csv", index=False)
 ```
 
-## 模型结合
+### 模型结合
 
 xgboost的使用方法和LightGBM一模一样
 
@@ -229,6 +237,6 @@ xgboost的使用方法和LightGBM一模一样
 
 也可以使用Bagging、Boosting方法等
 
-```
+```python
 y_pred = 0.5 * y_lgbm_pred + 0.5 * y_xgb_pred
 ```

@@ -1,6 +1,6 @@
 # Markdown公式
 
-### ### 作者：ShuHang2
+## 作者：ShuHang2
 
 [![build](https://github.com/Anduin2017/HowToCook/actions/workflows/build.yml/badge.svg)](https://github.com/ShuHang2/ShuHang2.github.io)
 
@@ -34,8 +34,6 @@
 |   chi   |  X   |    X     |  χ   |   \chi   |
 |   psi   |  Ψ   |   \Psi   |  ψ   |   \psi   |
 |  omega  |  Ω   |  \Omega  |  ω   |  \omega  |
-
-
 
 ### 关系运算符
 

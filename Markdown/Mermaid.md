@@ -76,8 +76,6 @@ pie title Pets adopted by volunteers
 
 ```
 
-
-
 ## 时间线图
 
 ```mermaid
@@ -89,10 +87,6 @@ timeline
     2005 : Youtube
     2006 : Twitter
 ```
-
-
-
-
 
 ### GIT图
 
@@ -108,4 +102,3 @@ gitGraph
    commit
    commit
 ```
-

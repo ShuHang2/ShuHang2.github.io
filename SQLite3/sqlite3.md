@@ -1,6 +1,6 @@
 # Sqlite3
 
-### 作者：ShuHang2
+## 作者：ShuHang2
 
 [![build](https://github.com/Anduin2017/HowToCook/actions/workflows/build.yml/badge.svg)](https://github.com/ShuHang2/ShuHang2.github.io)
 
@@ -33,7 +33,7 @@ sqlite是一个**精简**关系型数据库，无需配置
 └─sqlite3_analyzer.exe 
 ```
 
-将`D:\SQLite`添加到`PATH `环境变量
+将`D:\SQLite`添加到`PATH`环境变量
 
 ## 启动
 

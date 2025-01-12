@@ -1,6 +1,6 @@
 # ShuHang2的笔记
 
-### 作者：ShuHang2
+## 作者：ShuHang2
 
 [![build](https://github.com/Anduin2017/HowToCook/actions/workflows/build.yml/badge.svg)](https://github.com/ShuHang2/ShuHang2.github.io)
 
@@ -39,10 +39,10 @@
 
 如何文档中有错误，希望能通过邮箱`shuhang2@qq.com`与我联系，我将尽快修改，我将万分感谢
 
-## 与我联系：
+## 与我联系
 
 邮箱：
 
-```
+```email
 shuhang2@qq.com
 ```
